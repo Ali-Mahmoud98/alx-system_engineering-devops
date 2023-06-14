@@ -1,2 +1,14 @@
 #!/bin/bash
 tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev
+
+#tail -n +2 : This command removes the first line of the file, which is usually a header or a footer that contains metadata about the file.
+#cut -f -1: This command extracts all columns of the file except the last one, which is usually a column of numbers or other non-word characters.
+#sort -k 1: This command sorts the remaining columns of the file based on the first column, which is assumed to contain the words to be counted. The -k option specifies that the sorting should be based on the specified column.
+# uniq -c: This command counts the number of occurrences of each unique word in the sorted list. The -c option specifies that the count should be displayed along with each word.
+#sort -rnk 1: This command sorts the count of each word in descending order based on the first column. The -r option specifies that the sorting should be in reverse order, and the 
+#-n and -k options specify that the sorting should be based on the first column and that the count should be displayed along with each word.
+#head -n 11: This command selects the top 11 rows of the sorted count of words. The -n option specifies that the specified number of rows should be displayed.
+#rev : This command reverses the order of the rows, so that the top 11 words are displayed first.
+#cut -d ' ' -f -1: This command extracts the first column of the remaining rows, which contains the top 11 words. The -d ' ' option specifies that the delimiter between columns is a space, and the 
+#-f -1 option specifies that all columns should be extracted.
+#rev: This command reverses the order of the words, so that they are displayed in the original order.
