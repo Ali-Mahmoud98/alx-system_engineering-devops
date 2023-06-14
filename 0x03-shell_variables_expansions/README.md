@@ -61,8 +61,8 @@ All of the following files are scripts:
 | `102-water_and_str` | Adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result |
 
 ## REFRERENCES
-[Link1](http://linuxcommand.org/lc3_lts0080.php)
-[Link2](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
-[Link3](http://www.linfo.org/alias.html)
+[Link1](http://linuxcommand.org/lc3_lts0080.php) ,
+[Link2](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html) ,
+[Link3](http://www.linfo.org/alias.html) ,
 [Link4](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)
 
