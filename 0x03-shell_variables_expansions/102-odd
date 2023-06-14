@@ -1,2 +1,10 @@
 #!/bin/bash
 perl -lne 'print if $. % 2 ==1'
+
+# This is a Bash script that uses the 
+# perl command to print every other line of a text file. Here's how it works:
+# perl : This is the command that runs the Perl programming language.
+# -lne : This option tells Perl to print the lines of the input file, and to execute the specified command for each line. 
+# print if $. % 2 ==1': This is the command that is executed for each line of the input file. 
+# The $. variable represents the current line number, and the % operator is used to check if the line number is odd (i.e., if $. % 2 == 1). 
+# If the line number is odd, the print statement is executed to print the line to the output.
