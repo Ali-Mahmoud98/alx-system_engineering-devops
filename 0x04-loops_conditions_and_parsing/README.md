@@ -59,6 +59,18 @@ Write a Bash script that loops from 1 to 10 and:
 Requirements:
 * You must use the `while` loop (`for` and `until` are forbidden)
 * You must use the `if`, `elif` and `else` statements
+
+## 6. Superstitious numbers
+**Files:** [6-superstitious_numbers](6-superstitious_numbers)
+Write a Bash script that displays numbers from 1 to 20 and:
+* displays `4` and then `bad luck from China` for the 4th loop iteration
+* displays `9` and then `bad luck from Japan` for the 9th loop iteration
+* displays `17` and then `bad luck from Italy`` for the 17th loop iteration
+
+Requirements:
+* You must use the `while` loop (`for` and `until` are forbidden)
+* You must use the case statement
+
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
     * [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
