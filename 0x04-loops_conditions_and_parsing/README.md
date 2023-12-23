@@ -41,6 +41,14 @@ Write a Bash script that displays `Best School` 10 times.
 Requirements:
 * You must use the `until` loop (`for` and `while` are forbidden)
 
+## 4. If 9, say Hi!
+**Files:** [4-if_9_say_hi](4-if_9_say_hi)
+Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line.
+
+Requirements:
+* You must use the `while` loop (`for` and `until` are forbidden)
+* You must use the `if` statement
+
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
     * [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
