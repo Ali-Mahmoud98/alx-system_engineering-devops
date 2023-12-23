@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 # displays the content of the file /etc/passwd, using the while loop + IFS.
 
+# while IFS=':' read -r username password uid gid info home shell; do
+#     printf "The user %s is part of the %d gang," "$username" "$gid" 
+#     printf "lives in %s and rides %s." "$home" "$shell"
+#     printf "%d's place is protected by the passcode %s," "$uid" "$password"
+#     echo "more info about the user here: $info"
+# done < /etc/passwd
 while IFS=':' read -r username password uid gid info home shell; do
-    printf "The user %s is part of the %d gang," "$username" "$gid" 
-    printf "lives in %s and rides %s." "$home" "$shell"
-    printf "%d's place is protected by the passcode %s," "$uid" "$password"
-    echo "more info about the user here: $info"
-done < /etc/passwd
+  echo "The user $username is part of the $gid gang,"\
+  "lives in $home and rides $shell."\
+  "$uid's place is protected by the passcode $password,"\
+  "more info about the user here: $info"
+done < "/etc/passwd"
