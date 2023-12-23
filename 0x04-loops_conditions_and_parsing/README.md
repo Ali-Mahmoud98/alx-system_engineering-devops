@@ -2,8 +2,8 @@
 
 ## 0. Create a SSH RSA key pair
 **Files:** [0-RSA_public_key.pub](0-RSA_public_key.pub)
-Read for this task:
 
+Read for this task:
 * [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys)
 * [Windows users](https://docs.rackspace.com/docs/generating-rsa-keys-with-ssh-puttygen)
 * man: `ssh-keygen`
@@ -22,6 +22,7 @@ Requirements:
 
 ## 1. For Best School loop
 **Files:** [1-for_best_school](1-for_best_school)
+
 Write a Bash script that displays `Best School` 10 times.
 
 Requirement:
@@ -29,6 +30,7 @@ Requirement:
 
 ## 2. While Best School loop
 **Files:** [2-while_best_school](2-while_best_school)
+
 Write a Bash script that displays `Best School` 10 times.
 
 Requirements:
@@ -43,6 +45,7 @@ Requirements:
 
 ## 4. If 9, say Hi!
 **Files:** [4-if_9_say_hi](4-if_9_say_hi)
+
 Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line.
 
 Requirements:
@@ -51,6 +54,7 @@ Requirements:
 
 ## 5. 4 bad luck, 8 is your chance
 **Files:** [5-4_bad_luck_8_is_your_chance](5-4_bad_luck_8_is_your_chance)
+
 Write a Bash script that loops from 1 to 10 and:
 * displays `bad luck` for the 4th loop iteration
 * displays `good luck` for the 8th loop iteration
@@ -62,6 +66,7 @@ Requirements:
 
 ## 6. Superstitious numbers
 **Files:** [6-superstitious_numbers](6-superstitious_numbers)
+
 Write a Bash script that displays numbers from 1 to 20 and:
 * displays `4` and then `bad luck from China` for the 4th loop iteration
 * displays `9` and then `bad luck from Japan` for the 9th loop iteration
@@ -72,6 +77,7 @@ Requirements:
 * You must use the case statement
 
 ## 7. Clock
+
 **Files:** [7-clock](7-clock)
 Write a Bash script that displays the time for 12 hours and 59 minutes:
 * display hours from 0 to 12
@@ -82,6 +88,7 @@ Requirements:
 
 ## 8. For ls
 **Files:** [8-for_ls](8-for_ls)
+
 Write a Bash script that displays:
 * The content of the current directory
 * In a list format
@@ -116,6 +123,7 @@ sylvain@ubuntu$
 ```
 ## 9. To file, or not to file
 **Files:** [9-to_file_or_not_to_file](9-to_file_or_not_to_file)
+
 Write a Bash script that gives you information about the `school` file.
 Requirements:
 * You must use `if` and, `else` (`case` is forbidden)
@@ -137,6 +145,84 @@ Requirements:
 * Displays `Buzz` when the number is a multiple of 5
 * Otherwise, displays the number
 * In a list format
+
+## 11. Read and cut
+**Files:** [100-read_and_cut](100-read_and_cut)
+help: read
+Write a Bash script that displays the content of the file /etc/passwd.
+
+Your script should only display:
+* username
+* user id
+* Home directory path for the user
+
+Requirements:
+* You must use the `while` loop (`for` and `until` are forbidden)
+```
+sylvain@ubuntu$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+libuuid:x:100:101::/var/lib/libuuid:
+syslog:x:101:104::/home/syslog:/bin/false
+messagebus:x:102:106::/var/run/dbus:/bin/false
+landscape:x:103:109::/var/lib/landscape:/bin/false
+sshd:x:104:65534::/var/run/sshd:/usr/sbin/nologin
+pollinate:x:105:1::/var/cache/pollinate:/bin/false
+vagrant:x:1000:1000::/home/vagrant:/bin/bash
+colord:x:106:112:colord colour management daemon,,,:/var/lib/colord:/bin/false
+statd:x:107:65534::/var/lib/nfs:/bin/false
+sylvain:98:99:Sylvain:/home/sylvain:/bin/bash
+puppet:x:108:114:Puppet configuration management daemon,,,:/var/lib/puppet:/bin/false
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+sylvain@ubuntu$ ./100-read_and_cut
+root:0:/root
+daemon:1:/usr/sbin
+bin:2:/bin
+sys:3:/dev
+sync:4:/bin
+games:5:/usr/games
+man:6:/var/cache/man
+lp:7:/var/spool/lpd
+mail:8:/var/mail
+news:9:/var/spool/news
+uucp:10:/var/spool/uucp
+proxy:13:/bin
+www-data:33:/var/www
+backup:34:/var/backups
+list:38:/var/list
+irc:39:/var/run/ircd
+gnats:41:/var/lib/gnats
+nobody:65534:/nonexistent
+libuuid:100:/var/lib/libuuid
+syslog:101:/home/syslog
+messagebus:102:/var/run/dbus
+landscape:103:/var/lib/landscape
+sshd:104:/var/run/sshd
+pollinate:105:/var/cache/pollinate
+vagrant:1000:/home/vagrant
+colord:106:/var/lib/colord
+statd:107:/var/lib/nfs
+sylvain:99:/bin/bash
+puppet:108:/var/lib/puppet
+ubuntu:1001:/home/ubuntu
+sylvain@ubuntu$ 
+```
 
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
