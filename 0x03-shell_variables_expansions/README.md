@@ -18,7 +18,7 @@ Project done during **Full Stack Software Engineering studies** at **ALX School*
 		
 All of the following files are scripts:
 		
-
+| s | b |
 		
 | Filename | Description |
 		
