@@ -20,6 +20,13 @@ Requirements:
 * If you decide to add a passphrase to your key, make sure to save this passphrase in a secure location, you will not be able to use your keys without the passphrase
 * SSH and RSA keys will be covered in depth in a later project.
 
+## 1. For Best School loop
+**Files:** [1-for_best_school](1-for_best_school)
+Write a Bash script that displays `Best School` 10 times.
+
+Requirement:
+* You must use the `for` loop (`while` and `until` are forbidden)
+
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
     * [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
