@@ -4,10 +4,10 @@
 number=0
 while [ $number -lt 10 ];
 do
-    echo "Best school"
-    if [ $number -eq 8 ];
-    then
-        echo "Hi"
-    fi
-    ((number++))
+	echo "Best school"
+	if [ $number -eq 8 ];
+	then
+		echo "Hi"
+	fi
+	((number++))
 done
