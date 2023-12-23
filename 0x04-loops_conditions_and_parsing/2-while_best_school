@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+number=0
+while ((number < 10)); do
+	echo "Best School"
+    ((number++))
+done
+# another form of while:
+# number=0
+# while [ $number -lt 10 ]; do
+#     echo "Best School"
+#     ((number++))
+# done
