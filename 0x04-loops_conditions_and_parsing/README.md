@@ -71,6 +71,15 @@ Requirements:
 * You must use the `while` loop (`for` and `until` are forbidden)
 * You must use the case statement
 
+## 7. Clock
+**Files:** [7-clock](7-clock)
+Write a Bash script that displays the time for 12 hours and 59 minutes:
+* display hours from 0 to 12
+* display minutes from 1 to 59
+
+Requirements:
+You must use the `while` loop (`for` and `until` are forbidden)
+
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
     * [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
