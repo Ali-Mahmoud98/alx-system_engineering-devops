@@ -38,8 +38,8 @@ Requirements:
 
 ## 3. Until Best School loop
 **Files:** [3-until_best_school](3-until_best_school)
-Write a Bash script that displays `Best School` 10 times.
 
+Write a Bash script that displays `Best School` 10 times.
 Requirements:
 * You must use the `until` loop (`for` and `while` are forbidden)
 
@@ -77,8 +77,8 @@ Requirements:
 * You must use the case statement
 
 ## 7. Clock
-
 **Files:** [7-clock](7-clock)
+
 Write a Bash script that displays the time for 12 hours and 59 minutes:
 * display hours from 0 to 12
 * display minutes from 1 to 59
@@ -138,6 +138,7 @@ Requirements:
 
 ## 10. FizzBuzz
 **Files:** [10-fizzbuzz](10-fizzbuzz)
+
 Write a Bash script that displays numbers from 1 to 100.
 Requirements:
 * Displays `FizzBuzz` when the number is a multiple of 3 and 5
@@ -148,6 +149,7 @@ Requirements:
 
 ## 11. Read and cut
 **Files:** [100-read_and_cut](100-read_and_cut)
+
 help: read
 Write a Bash script that displays the content of the file /etc/passwd.
 
