@@ -27,6 +27,20 @@ Write a Bash script that displays `Best School` 10 times.
 Requirement:
 * You must use the `for` loop (`while` and `until` are forbidden)
 
+## 2. While Best School loop
+**Files:** [2-while_best_school](2-while_best_school)
+Write a Bash script that displays `Best School` 10 times.
+
+Requirements:
+* You must use the `while` loop (`for` and `until` are forbidden)
+
+## 3. Until Best School loop
+**Files:** [3-until_best_school](3-until_best_school)
+Write a Bash script that displays `Best School` 10 times.
+
+Requirements:
+* You must use the `until` loop (`for` and `while` are forbidden)
+
 ### You Can Read:
     * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
     * [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)

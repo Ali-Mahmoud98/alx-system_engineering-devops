@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+number=0
+until [ $number -ge 10 ];
+do
+    echo "Best School"
+    ((number++))
+done
+# number=0
+# until ((number>=10));
+# do
+#     echo "ali"
+#     ((number++))
+# done
