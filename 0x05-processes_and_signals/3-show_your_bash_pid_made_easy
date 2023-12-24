@@ -2,4 +2,4 @@
 # displays the PID, along with the process name,
 # of processes whose name contain the word bash.
 # pgrep [option] [pattern/process_name] => read man pgrep
-pgrep bash -l
+pgrep -l bash
