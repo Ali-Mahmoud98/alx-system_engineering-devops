@@ -241,6 +241,37 @@ Format: `The user USERNAME is part of the GROUP_ID gang, lives in HOME_DIRECTORY
 Requirements:
 * You must use the `while` loop (`for` and `until` are forbidden)
 
+## 13. Let's parse Apache logs
+**Files:** [102-lets_parse_apache_logs](102-lets_parse_apache_logs)
+
+[Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
+
+As a Full-Stack Software Engineer, you have to master the art of parsing log files. Today we will do a simple parsing of Apache log access files.
+
+Today the Customer Support department reported that a user reported that the site is being “buggy”. Not being a detailed description, you want to have a look at the Apache logs and gather data about the traffic.
+
+Write a Bash script that displays the visitor IP along with the [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) from the Apache log file.
+Requirement:
+* Format: IP HTTP_CODE
+    * in a list format
+    * See example
+* You must use `awk`
+* You are not allowed to use `while`, `for`, `until` and `cut`
+* Download and commit the apache-access.log file along with your answers files
+```
+sylvain@ubuntu$ ./102-lets_parse_apache_logs | tail -n 10
+185.130.5.207 301
+185.130.5.207 301
+91.224.140.223 200
+62.210.142.23 304
+92.222.20.166 304
+180.76.15.19 200
+2.1.201.36 304
+198.58.99.82 304
+50.116.30.23 304
+209.133.111.211 200
+sylvain@ubuntu$
+```
 
 ### You Can Read:
 * [Loops sample](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
@@ -248,4 +279,3 @@ Requirements:
 * [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
 * [File test operators](https://tldp.org/LDP/abs/html/fto.html)
 * [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
-
