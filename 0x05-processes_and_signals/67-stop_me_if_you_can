@@ -2,3 +2,4 @@
 # Kills the 7-highlander process.
 
 pkill -f 7-highlander
+# pkill send SIGTERM by default to terminate process.
