@@ -3,13 +3,13 @@
 ## Nice To READ
 
 ### Network basics
-[What is a protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
-[What is an IP address](https://computer.howstuffworks.com/internet/basics/what-is-an-ip-address.htm)
-[What is TCP/IP](https://www.avast.com/c-what-is-tcp-ip#)
-[What is an Internet Protocol (IP) port?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
+* [What is a protocol](https://www.techtarget.com/searchnetworking/definition/protocol)
+* [What is an IP address](https://computer.howstuffworks.com/internet/basics/what-is-an-ip-address.htm)
+* [What is TCP/IP](https://www.avast.com/c-what-is-tcp-ip#)
+* [What is an Internet Protocol (IP) port?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
 
 ### Docker
-[What is Docker and why is it popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+* [What is Docker and why is it popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
 **Take note:** The following instructions are run in a ubuntu-xenial virtual machine setup using Vagrant. To do the same, you can also install docker in any Vagrant virtual machine, or install docker on your host OS (Windows, Linux or Mac OS)
 
