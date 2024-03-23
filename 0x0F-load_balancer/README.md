@@ -6,3 +6,5 @@
 * [HTTP Header](https://www.techopedia.com/definition/27178/http-header)
 * [Debian/Ubuntu HAProxy packages](https://haproxy.debian.net/)
 
+### the following image is from HOLBERTON school
+![Load balancer](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png)
